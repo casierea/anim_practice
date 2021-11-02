@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: scene01_1030_03.ma
-//Last modified: Sat, Oct 30, 2021 07:24:09 PM
+//Last modified: Mon, Nov 01, 2021 07:29:05 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "E:/UVU/WENDIGO/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "E2747758-4123-9162-375B-8EA073BD0636";
+fileInfo "UUID" "3399BF60-4B08-FE37-76C7-01AB26D2DD19";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "05B1533A-4D25-4218-651E-F18E2142F12D";
@@ -3884,7 +3884,7 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "E9C44488-42E6-9615-C7A7-5DBC62363448";
-	setAttr ".b" -type "string" "playbackOptions -min 187 -max 340 -ast 1 -aet 439 ";
+	setAttr ".b" -type "string" "playbackOptions -min -5 -max 148 -ast -5 -aet 439 ";
 	setAttr ".st" 6;
 createNode lambert -n "lambert2";
 	rename -uid "7FA3868B-4D4E-0089-1800-A282E75EFDA9";
@@ -11325,8 +11325,8 @@ createNode animCurveTU -n "R_Hand_001_Ctrl_scaleZ";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  305 1;
 select -ne :time1;
-	setAttr ".o" 210;
-	setAttr ".unw" 210;
+	setAttr ".o" -1;
+	setAttr ".unw" -1;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

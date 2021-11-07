@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_04_2pass_1107.ma
-//Last modified: Sun, Nov 07, 2021 12:10:17 PM
+//Last modified: Sun, Nov 07, 2021 12:13:20 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/tori7/OneDrive/Desktop/WENDIGO_UNREAL/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "1644D7D8-4E05-0F9A-444A-A49E8F569FAC";
+fileInfo "UUID" "6F3C703D-4057-287C-B184-D3A98CB07DB1";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "DD665ADC-4092-FD22-E43E-F7BDBA76793B";
@@ -408,7 +408,7 @@ createNode parentConstraint -n "Phone_parentConstraint1" -p "Phone";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -2.5830175798036628 0.80054118372581229 -0.61207402220908591 ;
 	setAttr ".tg[0].tor" -type "double3" -39.282310890204336 -12.646875914598347 2.533602969254066 ;
-	setAttr ".lr" -type "double3" -122.04650094841392 -257.01434779463943 -153.06389500666486 ;
+	setAttr ".lr" -type "double3" -140.56860375963683 -304.51008072344422 -146.89467601167809 ;
 	setAttr ".rst" -type "double3" -11.394279219447682 49.963950581741372 5.6975433637102668 ;
 	setAttr ".rsrr" -type "double3" -140.80164870472788 -304.39977160706707 -147.12980873972603 ;
 	setAttr -k on ".w0";
@@ -11919,8 +11919,8 @@ createNode animCurveTL -n "R_Hand_Finger_05_Knuckle_003_Ctrl_translateX";
 createNode pairBlend -n "pairBlend14";
 	rename -uid "89AC70AA-4A86-1C5C-2794-0B93ABDD2CD4";
 select -ne :time1;
-	setAttr ".o" 53;
-	setAttr ".unw" 53;
+	setAttr ".o" 11;
+	setAttr ".unw" 11;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

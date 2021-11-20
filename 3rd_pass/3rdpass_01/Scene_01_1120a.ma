@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
-//Name: Scene_01.ma
-//Last modified: Sat, Nov 20, 2021 01:00:38 PM
+//Name: Scene_01_1120a.ma
+//Last modified: Sat, Nov 20, 2021 01:05:58 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "E:/UVU/WENDIGO/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "08584FFD-4F63-5ACC-8EC3-5F8CA2524AE6";
+fileInfo "UUID" "EA0ED205-4489-5CAB-B121-A299076AAB2B";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "05B1533A-4D25-4218-651E-F18E2142F12D";
@@ -15362,4 +15362,4 @@ connectAttr "groupId38.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId41.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId42.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId44.msg" ":initialShadingGroup.gn" -na;
-// End of Scene_01.ma
+// End of Scene_01_1120a.ma

@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_011122_d4_sitinscene2.ma
-//Last modified: Mon, Nov 22, 2021 03:28:25 PM
+//Last modified: Mon, Nov 22, 2021 05:07:11 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "E:/UVU/WENDIGO/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "7F8D3CE7-4E63-D2B1-D4C5-A5BE39CFDED5";
+fileInfo "UUID" "5B7F34FE-40AF-77F0-D7A9-24B93B1D28EF";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "05B1533A-4D25-4218-651E-F18E2142F12D";
@@ -2081,7 +2081,7 @@ createNode parentConstraint -n "backpack_parentConstraint1" -p "backpack";
 	setAttr ".tg[0].tot" -type "double3" -8.759238977747997e-05 0.086342278906943376 
 		-0.0014739902260650607 ;
 	setAttr ".tg[0].tor" -type "double3" 12.55789934054005 10.064830267885725 2.2293537688527407 ;
-	setAttr ".lr" -type "double3" 11.696481326028245 11.012091705509878 2.0788365044399262 ;
+	setAttr ".lr" -type "double3" 11.055519437420067 11.386955038709472 1.9665613770347738 ;
 	setAttr ".rst" -type "double3" -0.39447043408954424 -0.011139507433726407 1.1047812820731706 ;
 	setAttr ".rsrr" -type "double3" 7.1570799665462972e-18 -62.330891024149963 -2.0553613835112815e-15 ;
 	setAttr -k on ".w0";
@@ -11498,8 +11498,8 @@ createNode animCurveTU -n "Blend_Shape_ctrl_Breath";
 	setAttr -s 11 ".ktv[0:10]"  319 0 328 0 341 0 361 0 392 0 406 0 409 0
 		 414 0 418 0 423 0 428 0;
 select -ne :time1;
-	setAttr ".o" 59;
-	setAttr ".unw" 59;
+	setAttr ".o" 80;
+	setAttr ".unw" 80;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

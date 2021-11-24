@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_03_1124_done01.ma
-//Last modified: Wed, Nov 24, 2021 11:12:14 AM
+//Last modified: Wed, Nov 24, 2021 11:13:32 AM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/tori7/OneDrive/Desktop/WENDIGO_UNREAL/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "3FE50572-4535-582C-66FC-268C69ADB39F";
+fileInfo "UUID" "8657C183-4E87-2628-FC1F-9BBC664324A5";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "DD665ADC-4092-FD22-E43E-F7BDBA76793B";

@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
-//Name: Scene_03_1124_done01.ma
-//Last modified: Wed, Nov 24, 2021 11:12:14 AM
+//Name: Scene_04_redo_1123.ma
+//Last modified: Wed, Nov 24, 2021 11:18:40 AM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/tori7/OneDrive/Desktop/WENDIGO_UNREAL/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,18 +16,18 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "3FE50572-4535-582C-66FC-268C69ADB39F";
+fileInfo "UUID" "444A48A7-4323-65A1-E042-5A99FBDC88AE";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "DD665ADC-4092-FD22-E43E-F7BDBA76793B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -98.710938172514162 24.154567834531537 114.31914779052246 ;
-	setAttr ".r" -type "double3" -62.138352773534038 -1811.7999999980452 1.6246095834617623e-15 ;
+	setAttr ".t" -type "double3" -99.305884417244783 33.854547028506047 127.49529320938002 ;
+	setAttr ".r" -type "double3" -44.738352773533876 -1804.5999999980406 5.9828113903894804e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E1F4FFCB-4CF7-A2DA-52A0-9C97F798EDDE";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 7.916323968309702;
+	setAttr ".coi" 23.72401742043899;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -14244,4 +14244,4 @@ connectAttr "Jeremy_Rig_11:R_Arm_Twist_MD.msg" ":defaultRenderUtilityList1.u" -n
 		;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "PhoneShape.iog" ":initialShadingGroup.dsm" -na;
-// End of Scene_03_1124_done01.ma
+// End of Scene_04_redo_1123.ma

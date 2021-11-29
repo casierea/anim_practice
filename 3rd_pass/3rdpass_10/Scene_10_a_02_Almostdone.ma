@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_10_a_02_Almostdone.ma
-//Last modified: Sun, Nov 28, 2021 03:34:31 PM
+//Last modified: Sun, Nov 28, 2021 04:58:37 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;p=17;f=0" -typ
 		 "mayaAscii" "G:/sept27_wendigo/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "BD09C6BB-45D1-1889-E7DA-A198A70901CB";
+fileInfo "UUID" "723D189B-46F8-3501-FE83-7FB1D421D511";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "B69087FA-4BFF-5B52-3E51-F7A9FD3E4723";
@@ -7701,7 +7701,7 @@ createNode reference -n "Jeremy_Rig_06RN";
 		2 "Jeremy_Rig_06:Geo_Layer" "displayType" " 2"
 		2 "Jeremy_Rig_06:Geo_Layer" "visibility" " 1"
 		2 "Jeremy_Rig_06:Geo_Layer" "hideOnPlayback" " 0"
-		2 "Jeremy_Rig_06:Controls_Layer" "visibility" " 1"
+		2 "Jeremy_Rig_06:Controls_Layer" "visibility" " 0"
 		5 4 "Jeremy_Rig_06RN" "|Jeremy_Rig_06:Jeremy|Jeremy_Rig_06:Controls|Jeremy_Rig_06:TRANSFORM_Ctrl_Grp|Jeremy_Rig_06:TRANSFORM_Ctrl.LArmIKFK" 
 		"Jeremy_Rig_06RN.placeHolderList[1]" ""
 		5 4 "Jeremy_Rig_06RN" "|Jeremy_Rig_06:Jeremy|Jeremy_Rig_06:Controls|Jeremy_Rig_06:TRANSFORM_Ctrl_Grp|Jeremy_Rig_06:TRANSFORM_Ctrl.RArmIKFK" 
@@ -14583,8 +14583,8 @@ createNode animCurveTU -n "Base_scaleZ";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  13 1;
 select -ne :time1;
-	setAttr ".o" 81;
-	setAttr ".unw" 81;
+	setAttr ".o" 156;
+	setAttr ".unw" 156;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

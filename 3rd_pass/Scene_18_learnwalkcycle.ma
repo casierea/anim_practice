@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_18_learnwalkcycle.ma
-//Last modified: Tue, Nov 30, 2021 02:11:43 PM
+//Last modified: Tue, Nov 30, 2021 08:51:31 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "F:/UVU/WENDIGO/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,20 +16,20 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "298BC5FF-4114-DCFC-4C78-569EB7C01C97";
+fileInfo "UUID" "4B464BCC-4801-8862-99FC-3984A072CD2A";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "47A7516F-4CB1-E156-9225-1D83F7064AE1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -19.131012837854005 59.311659651698236 195.23820455357841 ;
-	setAttr ".r" -type "double3" -6.9383527250895138 -24.200000000001531 2.1793694061443938e-16 ;
+	setAttr ".t" -type "double3" 78.85953107418436 35.627420451081719 -44.054683250963919 ;
+	setAttr ".r" -type "double3" -6.9383527250915318 102.99999999999889 0 ;
 	setAttr ".rp" -type "double3" 0 3.5527136788005009e-15 -1.4210854715202004e-14 ;
 	setAttr ".rpt" -type "double3" -6.3185565865716086e-15 -9.5345177898419412e-15 2.4267964813194398e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FD49C5EC-4ED8-779B-E2C1-AEAE914E7C7C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 145.44358381652205;
+	setAttr ".coi" 74.488281093485412;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -23326,8 +23326,7 @@ createNode animCurveTA -n "R_Hand_Finger_04_Knuckle_001_Ctrl_rotateZ1";
 	setAttr ".wgt" no;
 	setAttr -s 2 ".ktv[0:1]"  0 0 1 24.994572441693037;
 select -ne :time1;
-	setAttr ".o" 70;
-	setAttr ".unw" 70;
+	setAttr ".o" 0;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

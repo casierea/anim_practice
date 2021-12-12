@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Scene_04_1210_02.ma
-//Last modified: Sun, Dec 12, 2021 12:54:36 PM
+//Last modified: Sun, Dec 12, 2021 12:24:07 PM
 //Codeset: 1252
 file -rdi 1 -ns "Jeremy_Rig_06" -rfn "Jeremy_Rig_06RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/tori7/OneDrive/Desktop/WENDIGO_UNREAL/Wendigo_RIG_ANIMATION/Jeremy/Jeremy Rig 06.ma";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202106180615-26a94e7f8c";
 fileInfo "osv" "Windows 10 Pro v2004 (Build: 19041)";
-fileInfo "UUID" "E86DD4C9-4CCB-5B46-D525-28B76251C925";
+fileInfo "UUID" "ECCAF756-41E4-3699-671E-2585BCB74541";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "DD665ADC-4092-FD22-E43E-F7BDBA76793B";
@@ -413,7 +413,7 @@ createNode parentConstraint -n "Phone_parentConstraint1" -p "Phone";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -0.13440612491866943 1.4555331194481624 2.2538980516223539 ;
 	setAttr ".tg[0].tor" -type "double3" 63.731796683865099 81.577348470823793 115.27987006985157 ;
-	setAttr ".lr" -type "double3" 98.281345001846503 77.694474126400095 424.91718346799547 ;
+	setAttr ".lr" -type "double3" -44.953432704313343 41.576969331799539 174.175284355538 ;
 	setAttr ".rst" -type "double3" -11.027922874866874 50.014893904054901 4.9554715920917403 ;
 	setAttr ".rsrr" -type "double3" -140.1215097327198 60.833790178512977 208.8419311426909 ;
 	setAttr -k on ".w0";
@@ -5543,16 +5543,16 @@ createNode camera -n "bottomShape" -p "bottom";
 	setAttr ".hc" -type "string" "viewSet -bo %camera";
 	setAttr ".o" yes;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "788EC790-4DA9-B173-04D8-31964A2AAA0A";
+	rename -uid "0A53ED25-41B6-1281-3718-CABCC2C5C40B";
 	setAttr -s 23 ".lnk";
 	setAttr -s 23 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "B2D14169-40B1-241D-4B92-6C82A87C7AAC";
+	rename -uid "FFC565EC-4279-FF2B-38E8-168E86B3967E";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "4FE474B7-4712-B4DE-7405-DD904EAD0934";
+	rename -uid "E54997B5-4084-B295-4351-4B8A2B707019";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "85B6754E-4FBD-3C30-7237-E6A59D6C73F8";
+	rename -uid "B66A0ED3-4699-D3EA-FD01-D4BB9BE8CDAB";
 	setAttr ".cdl" 2;
 	setAttr -s 13 ".dli[1:12]"  1 4 2 3 5 6 7 8 
 		9 10 11 12;
@@ -5560,7 +5560,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "EDEABEB4-4942-3F34-C18B-2E9EBBBCC103";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A22BBE13-49D5-4B11-50EB-E5A996413DEE";
+	rename -uid "FC0DA1F1-4CAE-E54D-24EF-61ACDE800041";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1A03AFB2-443C-C285-C612-E3A00F7E3F76";
 	setAttr ".g" yes;
@@ -16233,8 +16233,8 @@ createNode animCurveTU -n "Blend_Shape_ctrl_RSmile";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  61 0;
 select -ne :time1;
-	setAttr ".o" 9;
-	setAttr ".unw" 9;
+	setAttr ".o" 58;
+	setAttr ".unw" 58;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
